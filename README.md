@@ -69,14 +69,14 @@ Terminal 1:
 docker-compose up
 
 Terminal 2:
-docker-compose exec api bash
+docker-compose exec app bash
 python -m pytest
 ```
 
 
 ## Project Structure
 ```bash
-fast-api-base
+fastapi-template
 ├─ .gitignore
 ├─ app
 │  ├─ adapter
